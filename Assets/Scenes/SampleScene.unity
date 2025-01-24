@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 575560442}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -529,6 +529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sphereRigidbody: {fileID: 575560436}
   ballSpeed: 2
+  jumpForce: 5
 --- !u!114 &575560442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1051,7 +1052,7 @@ GameObject:
   - component: {fileID: 2116762079}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
